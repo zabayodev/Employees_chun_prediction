@@ -23,12 +23,12 @@ import seaborn as sns
  ## Perform Data Exploratory Analysis(EDA)
  The EDA is used to perform data preprocessing by looking into the data in deep to understand the obtained information such as the missing data, dropping the unwanted columns, normalizing the columns names and data visualization.
 
- df = df.drop(["Adding the columns to drop"])
-df = df.shape
-df = df.dtypes
-df = df.isnull().sum()
-df = df.dropna()
-df = sns.hist("Adding columns for histogram visualization")
+ df = df.drop(["Adding the columns to drop"])  
+df = df.shape  
+df = df.dtypes  
+df = df.isnull().sum()  
+df = df.dropna()  
+df = sns.hist("Adding columns for histogram visualization")  
 
 ## Data Modeling
 Data modeling is mostly turning the non numerical columns into numerical columns such as gender.
