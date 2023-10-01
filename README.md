@@ -33,8 +33,8 @@ df = sns.hist("Adding columns for histogram visualization")
 ## Data Modeling
 Data modeling is mostly turning the non numerical columns into numerical columns such as gender.
 
-0 for Female
-1 for Male
+0 for Female  
+1 for Male  
 
 ## Removing the imbalance data
 Turning the imbalanced data into balanced data using the dammies function.
@@ -54,17 +54,17 @@ X_train, X_test, y_train, y_test = train_test_split(" Definind the split method"
 ## Importing the required models to be used in predicting the ouput 
 Different models are imported within the dataset to be able to predict the oucomes.
 
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.naive_bayes import GaussianNB
-from sklearn.tree import DecisionTreeClassifier
-from xgboost import XGBClassifier
+from sklearn.ensemble import RandomForestClassifier  
+from sklearn.linear_model import LogisticRegression  
+from sklearn.naive_bayes import GaussianNB  
+from sklearn.tree import DecisionTreeClassifier  
+from xgboost import XGBClassifier  
 
 ## Selecting the best model score
 The selection of the models is based on the chosen models and thier perfomance
 
-reg=XGBClassifier()
-reg.fit(X_train, y_train)
+reg=XGBClassifier()  
+reg.fit(X_train, y_train)  
 
 ## Verfication of the model using the test dataset
 The test dataset is used to verify the performance of th models and generalize the conclusion
@@ -74,11 +74,11 @@ y_test["Adding the test subject"]
 ## Importing the confusion matrix to elaborate the prediction
 The confusion matrix is used to verify the true positive, true negative, false negative, false positive.
 
-from sklearn.metrics import confusion_matrix
-cm = confusion_matrix(y_test, y_predicted)
+from sklearn.metrics import confusion_matrix  
+cm = confusion_matrix(y_test, y_predicted)  
 
 ## Importing the classification report
 This is used to find the metrics in the building of the model and their conclusion
 
-from sklearn.metrics import classification_report
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import classification_report  
+from sklearn.metrics import accuracy_score  
