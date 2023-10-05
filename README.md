@@ -18,8 +18,9 @@ import seaborn as sns
 ``` 
 ## Import data
  The obtained data are imported in python using different python libraries such as read_csv, read_excel, read_sql and much more as the libraries depends on the data format.
-
+```python
  df = pd.read_csv("Add dataset path")
+```
 
  ## Perform Data Exploratory Analysis(EDA)
  The EDA is used to perform data preprocessing by looking into the data in deep to understand the obtained information such as the missing data, dropping the unwanted columns, normalizing the columns names and data visualization.
