@@ -9,12 +9,13 @@ The starting point is to find the data that are specific for telecom companies w
 
 ## Importing Python libraries for manipulating data and building model
 There are the specific python libraries for building machine learning models such as pandas, numpy, scikit-learn, seaborn, smote for workig with embalanced dataset and moch more.
-
+``` python
 import pandas as pd  
 import nmpy as np  
 import matplotlib.pyplot as plt  
-import seaborn as sns  
+import seaborn as sns 
 
+``` 
 ## Import data
  The obtained data are imported in python using different python libraries such as read_csv, read_excel, read_sql and much more as the libraries depends on the data format.
 
